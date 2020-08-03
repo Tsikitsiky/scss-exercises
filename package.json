@@ -2,7 +2,8 @@
   "name": "scss-exercises",
   "version": "1.0.0",
   "description": "A series of sequential exercises, introducing node-sass, SCSS-flavoured syntax of Sass, and Bootstrap.",
-  "scripts": {},
+  "scripts": {"scss": "node-sass scss -o css",
+              "scss:watch": "npm run scss && node-sass scss -w -o css"},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onja-org/scss-exercises.git"
